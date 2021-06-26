@@ -1,0 +1,77 @@
+h2{
+	color: chartreuse;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 15PX;
+    background-color: black;
+    width: 900px;
+    border-radius: 4px;
+    opacity: 0.8;
+}
+body {
+   background-image: url("../img/tumblr_inline_nxpd05d1Q01qd3uu5_1280.gif");
+   background-color: #cccccc;
+   width: 100%;
+}
+.formBack{
+background-color: black;
+    width: 64%;
+    border-radius: 5px;
+    border: none;
+    box-shadow: -6px 8px 20px 0px rgba(0,0,0,0.5);
+    margin-top: 61px;
+    padding-bottom: 10px;
+        padding-top: 10px;
+        opacity: 0.8;
+}
+.mail_list{
+	outline: none;
+	background-color: black;
+	resize: none;
+	border: none;
+	color: chartreuse;
+	text-align: center;
+	border-radius: 3px;	
+	opacity: 0.9;
+	margin: 0px; 
+	width: 700px; 
+	height: 232px;
+}
+.btn_go {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: chartreuse;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.btn_go span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn_go span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn_go:hover span {
+  padding-right: 25px;
+}
+
+.btn_go:hover span:after {
+  opacity: 1;
+  right: 0;
+}
